@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="file:///home/stl-004/javascript/alert/style.css" >
+       <script src="second.js"></script>
+    </head>
+
+<body> 
+    <form name="myForm" action="www.yahoo.com" onsubmit="return validateForm()">
+        Full Name:<input type="text" name="fname" required>
+        Age:<input type="text" name="age" onmouseout="return valage()">
+        Address:<input type="textarea" name="add">
+
+        number:
+        <input id="range" type="number" max="50" min="10" required>
+        <button onclick="ran()">clickme</button>
+        <p id ="demo"></p>
+
+        number2:
+        <input id="range1" type="number" max="50" min="10" required>
+        <button onclick="ran1()">clickme</button>
+        <p id ="demo1"></p>
+        <!--<input type="submit" value="submit">-->
+        </form>
+</body>
+</html>
